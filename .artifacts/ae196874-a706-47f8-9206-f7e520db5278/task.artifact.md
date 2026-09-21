@@ -1,0 +1,7 @@
+- [x] Add Paging 3 dependencies to `app/build.gradle.kts`
+- [x] Update `NewsApiService.kt` to support pagination
+- [x] Create `NewsPagingSource.kt` in `data/repository/`
+- [x] Update `NewsRepository.kt` to provide `PagingData`
+- [x] Update `NewsViewModel.kt` to expose `PagingData` flow
+- [x] Update `NewsListScreen.kt` to handle paginated items and states
+- [x] Sync Gradle and verify build
